@@ -1,3 +1,27 @@
-page-home {
+    ion-item,ion-list,ion-label, .item-md, .item-block, .item, .item-inner, .input-wrapper, .rel-container, .button-effect{
+        overflow: visible;
+    }
 
+    ion-list{
+        height: 100%;
+    }
+page-home {
+    ion-item{
+        height: 9rem;
+        // overflow: visible;
+        // white-space: ;
+    }
+
+
+    .error-container{
+        padding: 5px;
+        background: red;
+        color: white;
+        position: absolute;
+        z-index: 400;
+    }
+
+    .rel-container{
+        position: relative;
+    }
 }
