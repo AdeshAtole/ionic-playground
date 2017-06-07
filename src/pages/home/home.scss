@@ -1,27 +1,51 @@
-    ion-item,ion-list,ion-label, .item-md, .item-block, .item, .item-inner, .input-wrapper, .rel-container, .button-effect{
-        overflow: visible;
+// .item-overflow ,ion-list,ion-label, .item-md, .item-block, .item, .item-inner, .input-wrapper, .rel-container, .button-effect{
+//     overflow: visible;
+//     // z-index: 100;
+// }
+
+// .item-overflow{
+//     z-index: 100;
+// }
+
+page-home {
+    // ion-item{
+    //     height: 500px;
+    // }
+//  .item.item-overflow ,.item.item-overflow .item-inner, .item.item-overflow .item-inner .input-wrapper, .item.item-overflow .item-inner .label  {
+//    height: 50px;
+//    overflow: visible;
+//    position: relative;
+//    text-overflow: initial;
+//    white-space: normal;
+//    z-index: 3;
+// }
+
+    // ion-item{
+    //     height: 50px;
+    // }
+
+    .item-inner{
+        position: relative;
     }
 
-    ion-list{
-        height: 100%;
-    }
-page-home {
-    ion-item{
-        height: 9rem;
-        // overflow: visible;
-        // white-space: ;
-    }
 
 
     .error-container{
+        left: 10px;
+        top:10px;
+        bottom: 0px;
         padding: 5px;
         background: red;
         color: white;
         position: absolute;
-        z-index: 400;
+        z-index: 20;
+        height: 30px;
     }
 
-    .rel-container{
-        position: relative;
+    .input-wrapper{
+        display: inline-block;
     }
+    // .rel-container{
+    //     position: relative;
+    // }
 }
