@@ -9,6 +9,8 @@ import { PopoverPage } from "./popover"
 })
 export class HomePage {
 
+  myPat = "[0-9]*";
+
   constructor(public navCtrl: NavController, public popoverCtrl: PopoverController) {
 
   }

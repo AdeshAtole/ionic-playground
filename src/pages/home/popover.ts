@@ -15,7 +15,9 @@ import {NavParams} from "ionic-angular"
 })
 export class PopoverPage {
   constructor(public params:NavParams, public viewCtrl: ViewController) {
-     console.log('datarec',params);
+     console.log('datarec',params
+     
+     );
   }
 
   close() {

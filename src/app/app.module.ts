@@ -7,12 +7,14 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { PopoverPage } from '../pages/home/popover'
+import { AdeshComponent } from '../components/adesh/adesh';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    PopoverPage
+    PopoverPage,
+    AdeshComponent
   ],
   imports: [
     BrowserModule,
