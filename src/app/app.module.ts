@@ -8,13 +8,15 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { PopoverPage } from '../pages/home/popover'
 import { AdeshComponent } from '../components/adesh/adesh';
+import { MyDirective } from "../app/my-directive"
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     PopoverPage,
-    AdeshComponent
+    AdeshComponent,
+    MyDirective
   ],
   imports: [
     BrowserModule,

@@ -23,6 +23,11 @@
         </ion-item>
       </ion-list>
     </div>-->
-    <ion-input placeholder="Ion Input" pattern="myPat"></ion-input>
-    <input placeholder="Normal" pattern="[0-9]*"/>
+    <!-- <ion-input placeholder="Ion Input" pattern="myPat"></ion-input>
+    <input placeholder="Normal" pattern="[0-9]*"/> -->
+    <ion-input my-dir [placeholder] = "'Adesh'" [(ngModel)] = "myVal">
+
+    </ion-input>
+
+    {{myVal}}
   </ion-content>
